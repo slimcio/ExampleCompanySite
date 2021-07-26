@@ -176,6 +176,18 @@ footer{
     text-transform: capitalize;
 
 }
+.socials > li{
+    margin: 1rem;
+}
+
+
+
+
+.socials{
+    
+    list-style: none;
+    display: flex;
+}
 
 .socials a{
     font-size: 2vh;
