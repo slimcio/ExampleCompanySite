@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background: linear-gradient(216deg,#020024, #2b2bad, #ce34ce);
+    position: relative;
+    
+}
+
+
+.menu{
+    margin-top: 3px;
+    margin-bottom: 10px;
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(216deg,#ca2874,#832a78,#330335);
+    border-radius: 10vw;
+    
+}
+.btn{
+    border: none;
+    padding: 2vw;
+    margin: 10vw;
+    background-color: transparent;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 #ff8f8f;
+    transition: ease-out 1s;
+}
+.link{
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: 4vw;   
+}
+
+.btn:hover{
+    box-shadow: inset 20vw 0 0 0 #f90694;
+}
+
+.work{
+    
+    
+    display: block;
+    text-align: center;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 2vw;
+    color: rgb(255, 184, 240);
+
+    
+    
+   
+}
+
+.heading{
+    margin-top: 20%;
+}
+
+.description{
+    font-size: 2vw;
+    padding-bottom: 10vh;
+}
+
+
+
+.photos > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    color: blanchedalmond;
+    font-size: 2vw;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+
+    width: 100vw;
+    height: 100vh;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.img-1{
+    background: url("./img/pexels-photo-1379636.jpeg");
+}
+
+.img-2{
+    background: url("./img/pexels-photo-1525041.jpeg"); 
+}
+
+.img-3{
+    background: url("./img/pexels-photo-853199.jpeg"); 
+    text-shadow: 1px 4px 5px black;
+}
+
+
+
+
+
+.team{
+    margin-bottom: 20%;
+    width: 30%;
+    transition: transform .5s ease;
+}
+
+.team:hover{
+    transform: scale(1.1);
+}
+
+#bigger{
+    text-transform: uppercase;
+}
+
+#bigger:hover{
+    color: red;
+    background: rgb(12, 59, 75);
+}
+
+footer{
+    margin-bottom: -20vh;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(83, 8, 73);
+    height: auto;
+    width: 100vw;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.footer-content{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 2vh;
+    font-weight: 400;
+    text-transform: upp;
+    line-height: 2vh;
+}
+
+.footer-content p{
+    
+    margin: 1vh;
+    line-height: 2vh;
+    font-size: 2vh;
+}
+
+.footer-bottom{
+    background: rgb(49, 4, 66);
+    width: 100vw;
+    padding: 3vh;
+    text-align: center;
+}
+.footer-bottom p{
+
+    font-size: 2vh;
+    word-spacing: 2px;
+    text-transform: capitalize;
+
+}
+
+.socials a{
+    font-size: 2vh;
+}
+
+.socials a{
+    text-decoration: none;
+    color: rgb(236, 255, 255);
+}
+
+.socials a{
+    transition: color .4s ease;
+}
+
+.socials a:hover{
+    color: aqua;
+}
+
+
